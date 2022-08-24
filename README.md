@@ -1,1 +1,6 @@
-# Bachelor_project
+# Bachelor project (Detecting Movements from Electromyography Signals
+
+### Abstract
+The decoding of electromyography signals is considered a big chance for trans-radial amputated subjects to recover a major part of the hand functionality they lost. Identifying the movement intended by a subject using machine learning algorithms can enable them to control a robotic prosthetic arm benefiting from the huge advancements in the technology of sensors and robotics. 
+This thesis uses the publicly available Non-Invasive Adaptive Prosthetics (NINAPRO) database which contains electromyography data as well as hand kinematics and hand dynamics data.  Two problems are investigated in this project which are identifying the movement intended by the subject and also predicting the positions of sensors of a dataglove to make the control arms more robust and easy to use.
+The thesis explores different ways of decoding the electromyography signal and an accuracy of 82.05% is achieved using the raw signal which is better than the accuracy of the base model that uses feature extraction and achieved 76% for intact subjects. As for the regression problem, the r 2 scores for all sensors are higher than 0.8 and they can be calibrated per subject and be used in the manufacture of prosthetic arms that can move freely using the decoded electromyography signals in real time without having predefined movements only.
